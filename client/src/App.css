@@ -1,0 +1,506 @@
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+/* colors */
+.bgc1 {
+  background-color: #12c983;
+}
+
+/* odd styles */
+
+.button-width {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.custom-1 {
+  margin-left: 36%;
+  margin-top: 13%;
+  width: 30%;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-1 {
+    margin-left: 0;
+    margin-top: 13%;
+    width: 100%;
+  }
+}
+
+.custom-2 {
+  margin-left: 0.1%;
+  margin-right: 0.1%;
+}
+
+.custom-3 {
+  margin-left: 42%;
+}
+
+@media screen and (max-width: 500px) {
+  .custom-3 {
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .custom-3 {
+    margin-left: 20%;
+  }
+}
+
+.custom-4 {
+  margin-right: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-4 {
+    margin-right: 0;
+  }
+}
+
+.custom-5 {
+  margin-left: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-5 {
+    margin-left: 37%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .custom-5 {
+    margin-left: 32%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .custom-5 {
+    margin-left: 27%;
+    margin-bottom: 20px;
+  }
+}
+
+.btn-w {
+  width: 50%;
+}
+/* alert */
+/* 
+.alert {
+  padding: 0.8rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+  background: var(--light-color);
+  color: #333;
+}
+
+.alert-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+.alert-light {
+  background: var(--light-color);
+  color: #333;
+}
+.alert-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.alert-danger {
+  background: var(--danger-color);
+  color: #fff;
+}
+
+.alert-success {
+  background: var(--success-color);
+  color: #fff;
+} */
+
+/* standard styles */
+
+.green {
+  color: #007c29;
+}
+
+.blue {
+  color: #0b65a1;
+}
+
+.white {
+  color: white;
+}
+
+.h-full {
+  /* max-height: 37.59rem; */
+  height: 37.59rem;
+}
+
+.p-20px {
+  padding: 5px;
+}
+
+.t-large {
+  font-size: 10vw;
+}
+
+.t-med {
+  font-size: 5vw;
+}
+
+.t-small {
+  font-size: 3vw;
+  text-shadow: 1px 2px 1px grey;
+}
+
+.my-1 {
+  margin: 3px;
+}
+
+.my-5 {
+  margin: 20%;
+}
+
+.ml-5 {
+  margin-left: 1px;
+}
+
+.ml-20 {
+  margin-left: 20%;
+}
+
+.ml-30 {
+  margin-left: 30%;
+}
+
+.ml-37 {
+  margin-left: 37%;
+}
+
+.ml-45 {
+  margin-left: 45%;
+}
+
+.ml-50 {
+  margin-left: 50%;
+}
+
+.ml-55 {
+  margin-left: 55%;
+}
+
+.ml-85 {
+  margin-left: 85%;
+}
+
+.mr-5 {
+  margin-right: 5%;
+}
+.mr-20 {
+  margin-right: 20%;
+}
+
+.mt-1px {
+  margin-top: 5px;
+}
+
+.mt-5 {
+  margin-top: 5%;
+}
+
+.mt-10 {
+  margin-top: 10%;
+}
+
+.mt-15 {
+  margin-top: 15%;
+}
+
+.mt-20 {
+  margin-top: 20%;
+}
+
+.mt-25 {
+  margin-top: 27%;
+}
+.mt-30 {
+  margin-top: 30%;
+}
+
+.mt-15 {
+  margin-top: 15%;
+}
+
+.m-10px {
+  margin: 10px;
+}
+
+.mb-5 {
+  margin-bottom: 5%;
+}
+
+.mb-10 {
+  margin-bottom: 10%;
+}
+
+.m-10 {
+  margin: 10%;
+}
+
+.mlr-10 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.mlr-20 {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.pl-3px {
+  padding-left: 50px;
+}
+
+.pr-3px {
+  padding-right: 3px;
+}
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+.w-400 {
+  width: 200px;
+}
+
+.opac {
+  opacity: 0.93;
+}
+
+/* images */
+
+.landingPhoto {
+  position: center;
+  background: url('./assets/kayak.png') no-repeat center center/cover;
+  height: 60vh;
+  width: 20vw;
+  padding-top: 3vh;
+}
+
+.posts-img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-image: url('https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200');
+  background-size: cover;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.t-l {
+  font-size: 4rem;
+}
+
+.center {
+  align-content: center;
+}
+
+.border {
+  border: 3px solid black;
+}
+
+.round {
+  border-radius: 15px;
+}
+
+.round-30 {
+  border-radius: 30px;
+}
+
+.round-img {
+  border-radius: 50%;
+}
+
+.hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+}
+
+/* upload buttons */
+
+.upload-buttons {
+  display: grid;
+  grid-template-columns: 30vw 20vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-button-a {
+  grid-column-start: 1;
+}
+
+.upload-button-b {
+  grid-column-start: 2;
+}
+
+/* multi files upload layout */
+
+.button-center {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+}
+.button-center-item {
+  grid-column-start: 1;
+}
+
+.uploads {
+  display: grid;
+  grid-template-columns: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploads-item {
+  grid-column-start: 1;
+}
+/* river delte modal */
+.river-delete {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2px;
+  align-items: center;
+}
+
+.river-delete-item {
+  grid-column-start: 1;
+}
+
+.map-button {
+  display: grid;
+  grid-template-columns: 100px, 300px;
+}
+
+.map-button > div:first-child {
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+.mapl {
+  display: grid;
+  grid-template-columns: 10vw, 90vw;
+  position: 'relative';
+}
+
+/* .mapl > div:first-child {
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+} */
+
+/* paddlers */
+
+.paddlers {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;
+  align-items: center;
+}
+
+.paddlers > div:first-child {
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+
+/* fuck you gmaps */
+.fuckyou > div:first-child {
+  width: 500px;
+  height: 500px;
+}
+/* post */
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 2rem;
+  align-items: center;
+}
+
+.post > div:first-child {
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+
+/* .post img {
+  width: 100px;
+} */
+
+.post .comment-count {
+  background: var(--light-color);
+  color: var(--primary-color);
+  padding: 0.1rem 0.2rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.post .post-date {
+  color: #aaa;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+/* edit river buttons */
+
+.but-padding {
+  padding: 1000px;
+}
+
+/* river/map */
+.cluster-marker {
+  color: #fff;
+  background: #1978c8;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crime-marker {
+  background: none;
+  border: none;
+}
+
+.crime-marker img {
+  width: 25px;
+}

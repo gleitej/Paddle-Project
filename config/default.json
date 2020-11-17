@@ -1,0 +1,16 @@
+{
+  "mongoURI": "your key here",
+  "jwtSecret": "your key here",
+  "accessKeyId": "your key here",
+  "secretAccessKey": "your key here",
+  "guest": "guest",
+  "pending": "pending",
+  "user": "user",
+  "admin": "admin",
+  "masterAdmin": "masterAdmin",
+  "applicationNoSubmit": "applicationNoSubmit",
+  "applicationPending": "applicationPending",
+  "applicationApproved": "applicationApproved",
+  "email": "email@acount.com",
+  "emailPass": "your key here"
+}
