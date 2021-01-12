@@ -1,3 +1,6 @@
+## Quick Start Development Guide
+
+## User Roles
 This document descrides the different authorization roles present in this application
 
 This applications handles five different user roles.
