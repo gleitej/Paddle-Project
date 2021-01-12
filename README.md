@@ -1,5 +1,7 @@
 ## Quick Start Development Guide
 
+The file `./confing/default.json` 
+
 ## User Roles
 This document descrides the different authorization roles present in this application
 
