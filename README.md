@@ -4,6 +4,7 @@ The file `./confing/default.json` containes environment variables.  The followin
 
 `"mongoURI"` is the database that this application is configured to use.  You can create your own account and database following this link [mongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 
+`"jtSecret"` is used to sign JWT tokens in the authentication process.  The value can be any string of your choosing.
 
 ## User Roles
 This document descrides the different authorization roles present in this application
