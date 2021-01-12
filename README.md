@@ -1,6 +1,9 @@
 ## Quick Start Development Guide
 
-The file `./confing/default.json` 
+The file `./confing/default.json` containes environment variables.  The following information describes the recommended values.
+
+`"mongoURI"` is the database that this application is configured to use.  You can create your own account and database following this link [mongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+
 
 ## User Roles
 This document descrides the different authorization roles present in this application
