@@ -37,9 +37,9 @@ Note: There are many enviroment variables set in `./config/default.json`  For th
 
 `npm run dev` runs both the backend API on port 5000 and the frontend React dev server running on port 3000
 
-`npm run nodeS` runs backend API
+`npm run nodeS` runs only the backend API on port 5000
 
-`npm run client` runs front end React dev server
+`npm run client` runs front only the end React dev server on port 3000
 
 
 
