@@ -30,10 +30,10 @@ These roles are represented by the following strings.
 "masterAdmin"
 
 "guest"
-status: visiting user - very limited interaction with application
-storage: inital state in ./client/src/reducers/userRole.js
-Frontend - "guest" is the is the inital role. It only exists on the frontend redux state.
-Backend - "guest" is not set or stored on the backend
+- status: visiting user - very limited interaction with application
+- storage: inital state in ./client/src/reducers/userRole.js
+- Frontend - "guest" is the is the inital role. It only exists on the frontend redux state.
+- Backend - "guest" is not set or stored on the backend
 
 "pending"
 status: user has registered and has not confirmed email
