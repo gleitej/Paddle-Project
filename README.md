@@ -1,4 +1,26 @@
+## Hello
+
+Thank you for taking an interest in contributing to our Paddle Project's code base.  Please take a moment to read through our development guide.
+This application is built on the MERN (MongoDB Express React Node.js) stack.  The quick start development guide has been created to get you started efficently.
+
 ## Quick Start Development Guide
+
+1. `git clone https://github.com/gleitej/Paddle-Project.git`
+
+2. `npm i` installs dependacies for backend in package.json
+
+3. `cd client` change directory to the client folder
+
+4. `npm i` insalls dependacies for the frontend in package.json
+
+5. `cd ..` change directory to the top level folder
+
+`npm run dev` runs both the backend API on port 5000 and the frontend React dev server running on port 3000
+
+`npm run nodeS` runs backend API
+
+`npm run client` runs front end React dev server
+
 
 The file `./confing/default.json` containes environment variables.  The following information describes the recommended values.
 
