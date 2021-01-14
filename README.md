@@ -15,12 +15,7 @@ This application is built on the MERN (MongoDB Express React Node.js) stack.  Th
 
 5. `cd ..` change directory to the top level folder
 
-`npm run dev` runs both the backend API on port 5000 and the frontend React dev server running on port 3000
-
-`npm run nodeS` runs backend API
-
-`npm run client` runs front end React dev server
-
+6. Some enviorment variables will need to be configured before starting the development servers.
 
 The file `./confing/default.json` containes environment variables.  The following information describes the recommended values.
 
@@ -37,6 +32,15 @@ Note: There are many enviroment variables set in `./config/default.json`  For th
 `"email"` is the email address that that the appication is using to send verifation and password reset links.  The application is using the NPM package nodeMailer to connect to and email provider and send emails.
 
 `"emailPassord"` is the password for the email that the appication is using to send verifation and password reset links.  The application is using the NPM package nodeMailer to connect to and email provider and send emails.
+
+7. start the servers
+
+`npm run dev` runs both the backend API on port 5000 and the frontend React dev server running on port 3000
+
+`npm run nodeS` runs backend API
+
+`npm run client` runs front end React dev server
+
 
 
 ## User Roles
