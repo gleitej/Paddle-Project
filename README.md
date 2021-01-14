@@ -2,9 +2,20 @@
 
 The file `./confing/default.json` containes environment variables.  The following information describes the recommended values.
 
+Note: There are many enviroment variables set in `./config/default.json`  For the purpose of this quick start development guide the only envirment variables that are of concern are the ones listed below.  
+
 `"mongoURI"` is the database that this application is configured to use.  You can create your own account and database following this link [mongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 
 `"jtSecret"` is used to sign JWT tokens in the authentication process.  The value can be any string of your choosing.
+
+`"accessKeyId"` is the access ID for conecting to the Amazon Web Services S3 bucket.  The AWS S3 bucket is used to store photos (profile pictures and images of riverts).  You can create a free AWS S3 buket.
+
+`"secretAccessKey"` is the access key for conecting to the Amazon Web Services S3 bucket.  The AWS S3 bucket is used to store photos (profile pictures and images of riverts).  You can create a free AWS S3 buket.
+
+`"email"` is the email address that that the appication is using to send verifation and password reset links.  The application is using the NPM package nodeMailer to connect to and email provider and send emails.
+
+`"emailPasso"` is the password for the email that the appication is using to send verifation and password reset links.  The application is using the NPM package nodeMailer to connect to and email provider and send emails.
+
 
 ## User Roles
 This document descrides the different authorization roles present in this application
