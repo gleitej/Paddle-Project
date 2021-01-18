@@ -11,13 +11,13 @@ This application is built on the MERN (MongoDB Express React Node.js) stack.  Th
 
 3. `cd client` change directory to the client folder
 
-4. `npm i` insalls dependacies for the frontend in package.json
+4. `npm i` installs dependacies for the frontend in package.json
 
 5. `cd ..` change directory to the top level folder
 
-6. Some enviorment variables will need to be configured before starting the development servers.
+6. Some enviorment variables will need to be configured before starting the development servers.  The following contains information reguarding the configuration.
 
-The file `./confing/default.json` containes environment variables.  The following information describes the recommended values.
+The file `./confing/default.json` contains environment variables.  The following information describes the recommended values.
 
 Note: There are many enviroment variables set in `./config/default.json`  For the purpose of this quick start development guide the only envirment variables that are of concern are the ones listed below.  
 
